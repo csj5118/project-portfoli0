@@ -8,6 +8,7 @@
 :root{
     --white: #fff;
     --outerspace: #ccc;
+    --font: sans-serif;
 
 }
 
@@ -22,10 +23,59 @@ header {
     
 }
 
-h1, h2, h3 { 
+
+
+h1, h2  { 
+    display:flex;
+    justify-content:end;
     color:var(--white);
     background-color: transparent;
     vertical-align:middle;
+}
+
+h3{
+    font-size :48px;
+    padding-left: 13rem;
+    padding-right: 2rem;
+    border-right: 2px solid;
+    display:inline-block;
+    color:var(--white);
+    inline-size:27rem;
+    line-height: 125px;
+    word-wrap:break-word;
+    text-align:right;
+    
+    
+}
+
+#para{
+    position:relative;
+    bottom:12rem;
+    color: var(--white);
+    font-family: var(--font);
+
+}
+
+h4{
+    font-size :48px;
+    padding-left: 13rem;
+    padding-right: 2rem;
+    border-right: 2px solid;
+    display:inline-block;
+    color:var(--white);
+    line-height: 100px;
+    
+}
+
+h5{
+    font-size :48px;
+    padding-left: 13rem;
+    padding-right: 2rem;
+    border-right: 2px solid;
+    display:inline-block;
+    color:var(--white);
+    line-height: 150px;
+
 }
 
 nav li{
@@ -39,6 +89,8 @@ nav li{
 }
 
 a{
+    display:flex;
+    justify-content: flex-end;
     color: var(--white);
     text-decoration: underline;
     text-underline-offset: 10px;
@@ -70,14 +122,7 @@ a{
     right : 16px;
 }
 
-h3{
-    font-size :48px;
-    padding-left: 15rem;
-    padding-right: 2rem;
-    border-right: 1rem solid;
-    display: inline-block;
-    
-}
+
 
 #ab{
     font-size:22px;
