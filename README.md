@@ -13,5 +13,10 @@ Throughout this activity I found out the real challenges behind actually devlopi
 ## Usage
 Users will be able to see the project portfolio for Christopher Joo and have links to click on that will allow the user to see the work he has done. 
 
+![first top half of the webpage](image-1.png)
+
+![bottom half of the webpage](image-2.png)
 
 ## Credits 
+
+the instructors and staff from Columbia University Coding Bootcamp
